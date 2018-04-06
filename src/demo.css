@@ -1,0 +1,30 @@
+/* demo.css */
+
+@media (max-width: 600px) {
+    div{
+        width: 200px; /* no */
+        height: 100px;
+    }
+}
+
+@keyframes mymove
+{
+    from {top:0px;}
+    to {top:200px;}
+}
+
+body {
+    font-size: 20px;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    line-height: 30px;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
